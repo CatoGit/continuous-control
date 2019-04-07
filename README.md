@@ -1,3 +1,6 @@
+[//]: # (Image References)
+[Trained Arm]: https://github.com/CatoGit/continuous-control/blob/master/TrainedArm.gif "TrainedArm"
+
 # Continuous Control using DDPG
 
 In this project, a double-jointed arm learns to move to the desired target location. The arm itself is a single agent. 
@@ -5,6 +8,9 @@ The agent's goal is to keep its hand in the green sphere. It receives +0.1 rewar
 To maximize reward the agent has to keep its hand in the green sphere for as long as possible.
 
 The environment is solved once the agent achieves an average of +30 reward over 100 episodes.
+
+
+![Trained Robot Arm][Trained Arm]
 
 ## Motivation
 
