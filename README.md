@@ -28,7 +28,7 @@ These four numbers correspond to the torque that can be applied to the agent's j
     * Windows (32-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/one_agent/Reacher_Windows_x86.zip)
     * Windows (64-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/one_agent/Reacher_Windows_x86_64.zip)
 
-2. Place the file in the `continuous-control/` folder and unzip it.
+2. Place the file in the `continuouscontrol/` folder and unzip it.
 
 3. Train your DDPG agent using `ContinuousControl.ipynb`. 
 
