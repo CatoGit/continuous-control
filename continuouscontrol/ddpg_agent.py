@@ -65,10 +65,10 @@ class Agent():
                 for sample in range(10):
                     experiences = self.memory.sample()
                     self.learn(experiences, GAMMA)
-        # Learn, if enough samples are available in memory
-        #if len(self.memory) > BATCH_SIZE:
-            #experiences = self.memory.sample()
-            #self.learn(experiences, GAMMA)
+        
+        
+            
+            
 
     def act(self, state, add_noise=True):
         """Returns actions for given state as per current policy."""
