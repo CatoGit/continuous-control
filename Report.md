@@ -12,11 +12,11 @@ DDPG (like DQN) uses a replay buffer. The updates in the DDPG case are so called
 In contrast to directly copying the weights from the current network to the target network (as done in DQN), 
 soft updates slowly blend in a small amount of the regular network weights (e.g. 0.01%) to the target network weights. This improves the stability of learning.
 
-To explore better policies, noise is sampled into the actor policy. To generate noise a normal distribution is used (Ornstein-Uhlenbeck process). [[1]](https://arxiv.org/abs/1509.02971)
+To explore better policies, noise is sampled into the actor policy. To generate noise a normal distribution is used (Ornstein-Uhlenbeck process). 
 
 
 ### Neural network model architecture
-The network architecture is similar to the one that is presented in the DDPG paper and consists of an actor and a critic network. 
+The network architecture is similar to the one that is presented in the DDPG paper [[1]](https://arxiv.org/abs/1509.02971) and consists of an actor and a critic network. 
 
 Actor:
 * Layer 1: 33 input - 400 output
