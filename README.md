@@ -36,6 +36,6 @@ These four numbers correspond to the torque that can be applied to the agent's j
 
 2. Place the file in the `continuouscontrol/` folder and unzip it.
 
-3. Train your DDPG agent using `ContinuousControl.ipynb`. 
+3. Train your DDPG agent using `ContinuousControlProject.ipynb`. 
 
 4. Watch your trained agent. Enjoy!
