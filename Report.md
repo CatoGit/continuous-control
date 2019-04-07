@@ -48,7 +48,7 @@ As suggested in the Udacity course, gradient clipping is used when updating the 
 
 ### Results
 
-![results](DDPG.png)
+![Results](DDPG.png)
 
 ```
 Episode 100	Average Score: 4.03
