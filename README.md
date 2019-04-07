@@ -20,7 +20,9 @@ These four numbers correspond to the torque that can be applied to the agent's j
  
 ## Instructions
 
-1. Download the environment for your operating system from one of these links:  
+1. Follow the instructions [here](https://github.com/udacity/deep-reinforcement-learning#dependencies) to install all dependencies. 
+
+2. Download the environment for your operating system from one of these links:  
     * Linux: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/one_agent/Reacher_Linux.zip)
     * Mac OSX: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/one_agent/Reacher.app.zip)
     * Windows (32-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/one_agent/Reacher_Windows_x86.zip)
@@ -28,6 +30,6 @@ These four numbers correspond to the torque that can be applied to the agent's j
 
 2. Place the file in the `continuous-control/` folder and unzip it.
 
-3. Train your DDPG agent using `ContinuousControl.ipynb`. Make sure to have Python 3.6 with PyTorch and Tensorflow installed in order to use the unity environment on your computer.
+3. Train your DDPG agent using `ContinuousControl.ipynb`. 
 
 4. Watch your trained agent. Enjoy!
