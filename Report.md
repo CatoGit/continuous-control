@@ -28,7 +28,7 @@ Critic:
 * Layer 2: 404 input - 300 output
 * Layer 3: 300 input - 4 output 
 
-### DQN parameters
+### DDPG parameters
 
 An agent produces experience tuples (action, state, reward, next state) with every step in the environment. 
 The DDPG stores these in the replay buffer. 
